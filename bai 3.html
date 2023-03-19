@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fibonacci</title>
+</head>
+<body>
+<script>
+    let num = 20;
+    let a = 1 , b = 0, temp;
+    while (num >= 0){
+        temp = a;
+        a = a + b;
+        document.writeln(a+',  ');
+        b = temp;
+        num--;
+    }
+</script>
+</body>
+</html>
